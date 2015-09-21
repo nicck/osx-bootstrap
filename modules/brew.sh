@@ -6,6 +6,8 @@ else
   brew update
 fi
 
+brew tap gapple/services
+
 info_echo "Install Git"
 brew install git
 
